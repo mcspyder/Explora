@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">android-ui-views-1018249</string>
+    <string name="terms_and_conditions_text">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="already_a_member_login">Already a member? Log In</string>
+    <string name="logo_description">The Logo</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sign_in_subtitle">sign in to access your account</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="next">Next</string>
+    <string name="new_member_register">New Member? Register now</string>
+    <string name="get_started">Get Started</string>
+    <string name="create_account_subtitle">by creating a free account.</string>
+    <string name="full_name">Full Name</string>
+    <string name="valid_email">Valid email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="strong_password">Strong Password</string>
+    <string name="agree_terms">By checking the box you agree to our Terms and Conditions</string>
+    <string name="already_member">Already a member? Log In</string>
+    <string name="email_input_description">Enter your email address</string>
+    <string name="password_input_description">Enter your password</string>
+</resources>
