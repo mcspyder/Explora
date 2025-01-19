@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
         val isPasswordValid = checkPassword(password)
 
         if (isEmailValid && isPasswordValid) {
-            showSuccessAndGoHome()
+            Toast.makeText(this, "Welcome back!", Toast.LENGTH_SHORT).show()
         }
     }
     private fun checkEmail(email: String): Boolean {

@@ -56,7 +56,7 @@ and a bit of constraint hadnling since i didnt like how ui looked it didnt match
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/full_name_input"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="50dp"
             android:fontFamily="@font/montserrat"
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -74,7 +74,7 @@ and a bit of constraint hadnling since i didnt like how ui looked it didnt match
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email_input"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="50dp"
             android:fontFamily="@font/montserrat"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -91,7 +91,7 @@ and a bit of constraint hadnling since i didnt like how ui looked it didnt match
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/phone_input"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="50dp"
             android:fontFamily="@font/montserrat"
             android:inputType="phone" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -108,7 +108,7 @@ and a bit of constraint hadnling since i didnt like how ui looked it didnt match
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_input"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="50dp"
             android:fontFamily="@font/montserrat"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -118,7 +118,7 @@ and a bit of constraint hadnling since i didnt like how ui looked it didnt match
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/montserrat"
         android:text="@string/terms_and_conditions_text"
         app:layout_constraintBottom_toTopOf="@+id/next_button"
