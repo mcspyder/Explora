@@ -12,24 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExploraTheme"
         tools:targetApi="31">
-
-        <!-- Login Activity -->
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Main Activity -->
-        <activity android:name=".MainActivity"
-            android:exported="true"/>
-        <!-- Create Account Activity -->
-        <activity
-            android:name=".CreateAccountActivity"
-            android:exported="true" />
-
     </application>
 
 </manifest>
