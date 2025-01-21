@@ -2,8 +2,10 @@ package com.example.explora2025
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+
 class AuthActivity : AppCompatActivity() {
-    val credentialsManager = CredentialsManager()
+    private val credentialsManager by lazy { (application as ExploraApplication).credentialsManager }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
@@ -13,6 +15,7 @@ class AuthActivity : AppCompatActivity() {
             replaceFragment(LoginFragment())
         }
     }
+
     fun replaceFragment(fragment: Fragment, addToBackStack: Boolean = false) {
         val transaction = supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, fragment)
