@@ -1,6 +1,7 @@
 package com.example.explora2025
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -32,6 +33,9 @@ class LoginFragment : Fragment() {
 
             if (credentialsManager.authenticate(email, password)) {
                 Toast.makeText(context, "Welcome back!", Toast.LENGTH_SHORT).show()
+                val intent = Intent(requireContext(), MainActivity::class.java)
+                startActivity(intent)
+                requireActivity().finish()
 
             } else {
                 Toast.makeText(context, "Invalid credentials. Try again.", Toast.LENGTH_SHORT).show()
